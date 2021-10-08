@@ -9,5 +9,16 @@ public class ArithmeticOperations {
         System.out.println(a*b);
         System.out.println(b/a);
         System.out.println(b%a);
+
+        printResult(2+5);
+        printResult(add(a,b));
+    }
+
+    public static void printResult(int result){
+        System.out.println(result);
+    }
+
+    public static int add(int a, int b){
+        return a+b;
     }
 }
