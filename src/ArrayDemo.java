@@ -13,5 +13,18 @@ public class ArrayDemo {
         }
 
         System.out.println(sum);
+        System.out.println();
+
+        int[] array1 = {3,4,5};
+        int[] array2 = {7,1,3};
+
+        for (int i = 0; i < array1.length; i++){
+            System.out.print(array1[i] + array2[i] + " ");
+        }
+
+        System.out.println();
+        for (int i = 0; i < array1.length; i++){
+            System.out.print(array1[i] * array2[i] + " ");
+        }
     }
 }
